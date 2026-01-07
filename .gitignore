@@ -1,0 +1,32 @@
+# Binaries and executables
+api
+main
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test and Coverage artifacts
+*.test
+*.out
+coverage.txt
+
+# Dependencies
+vendor/
+
+# Environment variables (CRITICAL: Never commit credentials)
+.env
+.env.*
+!.env.example
+
+# IDE and Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Docker logs and overrides
+*.log
+docker-compose.override.yml
