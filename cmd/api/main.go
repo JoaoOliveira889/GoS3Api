@@ -38,7 +38,7 @@ func main() {
 		slog.Error("failed to load AWS SDK config", "error", err)
 		os.Exit(1)
 	}
-	//s
+
 	s3Client := s3.NewFromConfig(awsCfg)
 	repo := upload.NewS3Repository(s3Client, cfg.AWSRegion)
 	service := upload.NewService(repo)
