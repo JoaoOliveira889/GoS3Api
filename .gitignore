@@ -1,6 +1,4 @@
 # Binaries and executables
-api
-main
 *.exe
 *.exe~
 *.dll
